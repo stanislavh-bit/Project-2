@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fated Register</title>
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style2.css" />
 </head>
 <body>
   <div class="container">
-    <div class="card">
-      <div class="logo">
-        <img src="https://files.catbox.moe/03umd4.jpg" class="illustration">
-        <h1>FATED</h1>
+    <div class="logo-section">
+      <div class="logo-circle">
+        <img
+          src="https://files.catbox.moe/03umd4.jpg"
+          alt="heart logo"
+          class="heart-logo"
+        />
       </div>
+      <h1 class="title">FATED</h1>
+    </div>
 
-      <div class="tabs">
-        <button>LOGIN</button>
+    <div class="form-section">
+      <div class="switch-buttons">
+        <a href="login.html" class="btn">LOGIN</a>
         <button class="active">REGISTER</button>
       </div>
 
       <form>
-        <input class="center" type="text" placeholder="user name">
-        <input class="center" type="password" placeholder="password">
-        <input class="center" type="email" placeholder="email">
-        <a href="#" class="forgot">FORGOT PASSWORD?</a>
-        <button type="submit" class="register-btn">REGISTER</button>
-      </form>
+        <input type="text" placeholder="user name" />
+        <input type="password" placeholder="password" />
+        <input type="email" placeholder="email" />
 
-      <p class="bottom-text">ALREADY HAVE AN ACCOUNT? <a href="login.html">LOGIN</a></p>
+        <a href="#" class="forgot">FORGOT PASSWORD?</a>
+
+        <button type="submit" class="register-btn">REGISTER</button>
+
+        <p class="login-text">
+          ALREADY HAVE AN ACCOUNT?
+          <a href="login.html" class="login-link">LOGIN</a>
+        </p>
+      </form>
     </div>
   </div>
 </body>

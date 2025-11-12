@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fated Register</title>
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style2.css" />
 </head>
 <body>
   <div class="container">
-    <div class="card">
-      <div class="logo">
-        <img src="https://files.catbox.moe/03umd4.jpg" class="illustration">
-        <h1>FATED</h1>
+    <div class="logo-section">
+      <div class="logo-circle">
+        <img
+          src="https://files.catbox.moe/03umd4.jpg"
+          alt="heart logo"
+          class="heart-logo"
+        />
       </div>
+      <h1 class="title">FATED</h1>
+    </div>
 
-      <div class="tabs">
-        <button class="active">LOGIN</button>
-        <button>REGISTER</button>
+    <div class="form-section">
+      <div class="switch-buttons">
+       <button class="active">LOGIN</button>
+         <a href="register.html" class="btn">REGISTER</a>
       </div>
 
       <form>
-        <input class="center" type="text" placeholder="user name">
-        <input class="center" type="password" placeholder="password">
-        <a href="#" class="forgot">FORGOT PASSWORD?</a>
-        <button type="submit" class="register-btn">REGISTER</button>
-      </form>
+        <input type="text" placeholder="user name" />
+        <input type="password" placeholder="password" />
 
-      <p class="bottom-text">DON'T HAVE AN ACCOUNT? <a href="register.html">REGISTER</a></p>
+        <a href="#" class="forgot">FORGOT PASSWORD?</a>
+
+        <button type="submit" class="register-btn">LOGIN</button>
+
+        <p class="login-text">
+          DON'T HAVE AN ACCOUNT?
+          <a href="register.html" class="login-link">REGISTER</a>
+        </p>
+      </form>
     </div>
   </div>
 </body>
